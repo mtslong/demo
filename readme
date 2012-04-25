@@ -1,0 +1,13 @@
+Global setup:
+  git config --global user.name "Your Name"
+  git config --global user.email mofeng@netease.com
+      
+Next steps:
+  mkdir demo
+  cd demo
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:mtslong/demo.git
+  git push -u origin master
