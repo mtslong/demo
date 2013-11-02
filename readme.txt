@@ -23,5 +23,4 @@ Next steps:
   3、执行命令 git clone https://github.com/mtslong/demo.git
   即可看到生成demo目录。剩下的操作和git操作一样。
   
-测试发现HelloWorld项目在github网页上的内容更新太慢了。
   
