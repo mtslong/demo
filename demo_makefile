@@ -1,0 +1,16 @@
+#make file demo
+
+OBJS = rwlock job_queue memory_consistency
+CFLAGS = -Wall -g -p -pg -lpthread -O3
+
+.PHONY:all
+
+all:$(OBJS)
+
+% : %.c
+	cc $(CFLAGS) $< -o $@
+
+
+.PHONY: clean
+clean:
+	-rm $(OBJS) 
