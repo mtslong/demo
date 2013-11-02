@@ -23,4 +23,18 @@ Next steps:
   3、执行命令 git clone https://github.com/mtslong/demo.git
   即可看到生成demo目录。剩下的操作和git操作一样。
   
-  
+demo项目发布的URL地址： http://mtslong.github.io/demo/
+发布操作：
+$ cd your_repo_root/repo_name
+$ git fetch origin
+$ git checkout gh-pages
+本地将建立一个gh-pages分支，原来的代码在master分支。
+
+Unpublishing a project page
+To unpublish a project page, delete the remote gh-pages branch:
+
+取消发布 git push origin --delete gh-pages
+# Delete the gh-pages branch from origin
+# To https://github.com/username/repo.git
+# - [deleted]         gh-pages
+
