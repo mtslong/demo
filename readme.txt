@@ -38,3 +38,5 @@ To unpublish a project page, delete the remote gh-pages branch:
 # To https://github.com/username/repo.git
 # - [deleted]         gh-pages
 
+使用github的项目网站发布方式很方便实现个人主页。自己可以完全控制网站的链接和内容，这个很酷。
+
