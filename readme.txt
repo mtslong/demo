@@ -14,78 +14,78 @@ Next steps:
   git pull origin master
   git push -u origin master
   
-²âÊÔÏîÄ¿demo(×¢£ºÏÂÃæ²Ù×÷Ö®Ç°ÒÑ¾­ÔÚgithub´´½¨demoÏîÄ¿): 
-  githubÂ·¾¶£ºhttps://github.com/mtslong/demo.git
-  ±¾µØÂ·¾¶£ºE:\03.git\github
-  Éú³É¿ËÂ¡¿â²Ù×÷£º
-  1¡¢½øÈëÄ¿Â¼ E:\03.git\github\£»
-  2¡¢½øÈëÃüÁîĞĞ git Bash£»
-  3¡¢Ö´ĞĞÃüÁî git clone https://github.com/mtslong/demo.git
-  ¼´¿É¿´µ½Éú³ÉdemoÄ¿Â¼¡£Ê£ÏÂµÄ²Ù×÷ºÍgit²Ù×÷Ò»Ñù¡£
+æµ‹è¯•é¡¹ç›®demo(æ³¨ï¼šä¸‹é¢æ“ä½œä¹‹å‰å·²ç»åœ¨githubåˆ›å»ºdemoé¡¹ç›®): 
+  githubè·¯å¾„ï¼šhttps://github.com/mtslong/demo.git
+  æœ¬åœ°è·¯å¾„ï¼šE:\03.git\github
+  ç”Ÿæˆå…‹éš†åº“æ“ä½œï¼š
+  1ã€è¿›å…¥ç›®å½• E:\03.git\github\ï¼›
+  2ã€è¿›å…¥å‘½ä»¤è¡Œ git Bashï¼›
+  3ã€æ‰§è¡Œå‘½ä»¤ git clone https://github.com/mtslong/demo.git
+  å³å¯çœ‹åˆ°ç”Ÿæˆdemoç›®å½•ã€‚å‰©ä¸‹çš„æ“ä½œå’Œgitæ“ä½œä¸€æ ·ã€‚
   
-demoÏîÄ¿·¢²¼µÄURLµØÖ·£º http://mtslong.github.io/demo/
-·¢²¼²Ù×÷£º
+demoé¡¹ç›®å‘å¸ƒçš„URLåœ°å€ï¼š http://mtslong.github.io/demo/
+å‘å¸ƒæ“ä½œï¼š
 $ cd your_repo_root/repo_name
 $ git fetch origin
 $ git checkout gh-pages
-±¾µØ½«½¨Á¢Ò»¸ögh-pages·ÖÖ§£¬Ô­À´µÄ´úÂëÔÚmaster·ÖÖ§¡£
+æœ¬åœ°å°†å»ºç«‹ä¸€ä¸ªgh-pagesåˆ†æ”¯ï¼ŒåŸæ¥çš„ä»£ç åœ¨masteråˆ†æ”¯ã€‚
 
 Unpublishing a project page
 To unpublish a project page, delete the remote gh-pages branch:
 
-È¡Ïû·¢²¼ git push origin --delete gh-pages
+å–æ¶ˆå‘å¸ƒ git push origin --delete gh-pages
 # Delete the gh-pages branch from origin
 # To https://github.com/username/repo.git
 # - [deleted]         gh-pages
 
-Ê¹ÓÃgithubµÄÏîÄ¿ÍøÕ¾·¢²¼·½Ê½ºÜ·½±ãÊµÏÖ¸öÈËÖ÷Ò³¡£×Ô¼º¿ÉÒÔÍêÈ«¿ØÖÆÍøÕ¾µÄÁ´½ÓºÍÄÚÈİ£¬Õâ¸öºÜ¿á¡£
+ä½¿ç”¨githubçš„é¡¹ç›®ç½‘ç«™å‘å¸ƒæ–¹å¼å¾ˆæ–¹ä¾¿å®ç°ä¸ªäººä¸»é¡µã€‚è‡ªå·±å¯ä»¥å®Œå…¨æ§åˆ¶ç½‘ç«™çš„é“¾æ¥å’Œå†…å®¹ï¼Œè¿™ä¸ªå¾ˆé…·ã€‚
 
-Git»ù±¾Óï·¨
-Óï·¨	¹¦ÄÜËµÃ÷
-git clone	¿ËÂ¡°æ±¾¿â
-git pull	À­»ØÔ¶³Ì°æ±¾¿âµÄÌá½»
-git push	ÍÆËÍÖÁÔ¶³Ì°æ±¾¿â
-git add	Ìí¼ÓÖÁÔİ´æÇø
-git add¨Cinteractive	½»»¥Ê½Ìí¼Ó
-git apply	Ó¦ÓÃ²¹¶¡
-git am	Ó¦ÓÃÓÊ¼ş¸ñÊ½²¹¶¡
-git annotate	Í¬Òå´Ê£¬µÈÍ¬ÓÚ git blame
-git archive	ÎÄ¼ş¹éµµ´ò°ü
-git bisect	¶ş·Ö²éÕÒ
-git blame	ÎÄ¼şÖğĞĞ×·Ëİ
-git branch	·ÖÖ§¹ÜÀí
-git cat-file	°æ±¾¿â¶ÔÏóÑĞ¾¿¹¤¾ß
-git checkout	¼ì³öµ½¹¤×÷Çø¡¢ÇĞ»»»ò´´½¨·ÖÖ§
-git cherry-pick	Ìá½»¼ğÑ¡
-git citool	Í¼ĞÎ»¯Ìá½»£¬Ïàµ±ÓÚ git gui ÃüÁî
-git clean	Çå³ı¹¤×÷ÇøÎ´¸ú×ÙÎÄ¼ş
-git commit	Ìá½»
-git config	²éÑ¯ºÍĞŞ¸ÄÅäÖÃ
-git describe	Í¨¹ıÀï³Ì±®Ö±¹ÛµØÏÔÊ¾Ìá½»ID
-git diff	²îÒì±È½Ï
-git difftool	µ÷ÓÃÍ¼ĞÎ»¯²îÒì±È½Ï¹¤¾ß
-git fetch	»ñÈ¡Ô¶³Ì°æ±¾¿âµÄÌá½»
-git format-patch	´´½¨ÓÊ¼ş¸ñÊ½µÄ²¹¶¡ÎÄ¼ş¡£²Î¼û git am ÃüÁî
-git grep	ÎÄ¼şÄÚÈİËÑË÷¶¨Î»¹¤¾ß
-git gui	»ùÓÚTcl/TkµÄÍ¼ĞÎ»¯¹¤¾ß£¬²àÖØÌá½»µÈ²Ù×÷
-git help	°ïÖú
-git init	°æ±¾¿â³õÊ¼»¯
-git init-db	Í¬Òå´Ê£¬µÈÍ¬ÓÚ git init
-git log	ÏÔÊ¾Ìá½»ÈÕÖ¾
-git merge	·ÖÖ§ºÏ²¢
-git mergetool	Í¼ĞÎ»¯³åÍ»½â¾ö
-git mv	ÖØÃüÃû
-git rebase	·ÖÖ§±ä»ù
-git rebase¨Cinteractive	½»»¥Ê½·ÖÖ§±ä»ù
-git reflog	·ÖÖ§µÈÒıÓÃ±ä¸ü¼ÇÂ¼¹ÜÀí
-git remote	Ô¶³Ì°æ±¾¿â¹ÜÀí
-git repo-config	Í¬Òå´Ê£¬µÈÍ¬ÓÚ git config
-git reset	ÖØÖÃ¸Ä±ä·ÖÖ§¡°ÓÎ±ê¡±Ö¸Ïò
-git rev-parse	½«¸÷ÖÖÒıÓÃ±íÊ¾·¨×ª»»Îª¹şÏ£ÖµµÈ
-git revert	·´×ªÌá½»
-git rm	É¾³ıÎÄ¼ş
-git show	ÏÔÊ¾¸÷ÖÖÀàĞÍµÄ¶ÔÏó
-git stage	Í¬Òå´Ê£¬µÈÍ¬ÓÚ git add
-git stash	±£´æºÍ»Ö¸´½ø¶È
-git status	ÏÔÊ¾¹¤×÷ÇøÎÄ¼ş×´Ì¬
-git tag	Àï³Ì±®¹ÜÀí
+GitåŸºæœ¬è¯­æ³•
+è¯­æ³•	åŠŸèƒ½è¯´æ˜
+git clone	å…‹éš†ç‰ˆæœ¬åº“
+git pull	æ‹‰å›è¿œç¨‹ç‰ˆæœ¬åº“çš„æäº¤
+git push	æ¨é€è‡³è¿œç¨‹ç‰ˆæœ¬åº“
+git add	æ·»åŠ è‡³æš‚å­˜åŒº
+git addâ€“interactive	äº¤äº’å¼æ·»åŠ 
+git apply	åº”ç”¨è¡¥ä¸
+git am	åº”ç”¨é‚®ä»¶æ ¼å¼è¡¥ä¸
+git annotate	åŒä¹‰è¯ï¼Œç­‰åŒäº git blame
+git archive	æ–‡ä»¶å½’æ¡£æ‰“åŒ…
+git bisect	äºŒåˆ†æŸ¥æ‰¾
+git blame	æ–‡ä»¶é€è¡Œè¿½æº¯
+git branch	åˆ†æ”¯ç®¡ç†
+git cat-file	ç‰ˆæœ¬åº“å¯¹è±¡ç ”ç©¶å·¥å…·
+git checkout	æ£€å‡ºåˆ°å·¥ä½œåŒºã€åˆ‡æ¢æˆ–åˆ›å»ºåˆ†æ”¯
+git cherry-pick	æäº¤æ‹£é€‰
+git citool	å›¾å½¢åŒ–æäº¤ï¼Œç›¸å½“äº git gui å‘½ä»¤
+git clean	æ¸…é™¤å·¥ä½œåŒºæœªè·Ÿè¸ªæ–‡ä»¶
+git commit	æäº¤
+git config	æŸ¥è¯¢å’Œä¿®æ”¹é…ç½®
+git describe	é€šè¿‡é‡Œç¨‹ç¢‘ç›´è§‚åœ°æ˜¾ç¤ºæäº¤ID
+git diff	å·®å¼‚æ¯”è¾ƒ
+git difftool	è°ƒç”¨å›¾å½¢åŒ–å·®å¼‚æ¯”è¾ƒå·¥å…·
+git fetch	è·å–è¿œç¨‹ç‰ˆæœ¬åº“çš„æäº¤
+git format-patch	åˆ›å»ºé‚®ä»¶æ ¼å¼çš„è¡¥ä¸æ–‡ä»¶ã€‚å‚è§ git am å‘½ä»¤
+git grep	æ–‡ä»¶å†…å®¹æœç´¢å®šä½å·¥å…·
+git gui	åŸºäºTcl/Tkçš„å›¾å½¢åŒ–å·¥å…·ï¼Œä¾§é‡æäº¤ç­‰æ“ä½œ
+git help	å¸®åŠ©
+git init	ç‰ˆæœ¬åº“åˆå§‹åŒ–
+git init-db	åŒä¹‰è¯ï¼Œç­‰åŒäº git init
+git log	æ˜¾ç¤ºæäº¤æ—¥å¿—
+git merge	åˆ†æ”¯åˆå¹¶
+git mergetool	å›¾å½¢åŒ–å†²çªè§£å†³
+git mv	é‡å‘½å
+git rebase	åˆ†æ”¯å˜åŸº
+git rebaseâ€“interactive	äº¤äº’å¼åˆ†æ”¯å˜åŸº
+git reflog	åˆ†æ”¯ç­‰å¼•ç”¨å˜æ›´è®°å½•ç®¡ç†
+git remote	è¿œç¨‹ç‰ˆæœ¬åº“ç®¡ç†
+git repo-config	åŒä¹‰è¯ï¼Œç­‰åŒäº git config
+git reset	é‡ç½®æ”¹å˜åˆ†æ”¯â€œæ¸¸æ ‡â€æŒ‡å‘
+git rev-parse	å°†å„ç§å¼•ç”¨è¡¨ç¤ºæ³•è½¬æ¢ä¸ºå“ˆå¸Œå€¼ç­‰
+git revert	åè½¬æäº¤
+git rm	åˆ é™¤æ–‡ä»¶
+git show	æ˜¾ç¤ºå„ç§ç±»å‹çš„å¯¹è±¡
+git stage	åŒä¹‰è¯ï¼Œç­‰åŒäº git add
+git stash	ä¿å­˜å’Œæ¢å¤è¿›åº¦
+git status	æ˜¾ç¤ºå·¥ä½œåŒºæ–‡ä»¶çŠ¶æ€
+git tag	é‡Œç¨‹ç¢‘ç®¡ç†
