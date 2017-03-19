@@ -1,6 +1,10 @@
+
 Global setup:
+
   git config --global user.name "Your Name"
+  
   git config --global user.email mofeng@netease.com
+
       
 Next steps:
   mkdir demo
@@ -89,3 +93,4 @@ git stage	同义词，等同于 git add
 git stash	保存和恢复进度
 git status	显示工作区文件状态
 git tag	里程碑管理
+
